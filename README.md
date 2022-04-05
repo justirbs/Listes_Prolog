@@ -15,7 +15,7 @@ Saisir la commande suivante :
 ```
 my_last(X,L).
 ```
-Avec L une liste de la forme [a,b,c]. Retourne une solution du type X = c.
+Avec L une liste de la forme [a,b,c]. Affiche une solution du type X = c.
 
 ## Trouver l'avant dernier élément d'une liste
 
@@ -27,7 +27,7 @@ Saisir la commande suivante :
 ```
 my_last_but_once(X,L).
 ```
-Avec L une liste de la forme [a,b,c]. Retourne une solution du type X = b.
+Avec L une liste de la forme [a,b,c]. Affiche une solution du type X = b.
 
 ## Inverser les éléments dans une liste
 
@@ -39,7 +39,7 @@ Saisir la commande suivante :
 ```
 reverse(L,S).
 ```
-Avec L une liste de la forme [a,b,c]. Retourne une solution du type S = [c,b,a].
+Avec L une liste de la forme [a,b,c]. Affiche une solution du type S = [c,b,a].
 
 ## Vérifier si une liste est un palindrome
 
@@ -51,4 +51,16 @@ Saisir la commande suivante :
 ```
 palindrome(L).
 ```
-Avec L une liste de la forme [a,b,c]. Retourne vrai ou faux.
+Avec L une liste de la forme [a,b,c]. Affiche vrai ou faux.
+
+## Applatir une liste
+
+Charger le fichier :
+```
+['my_flatten.prolog'].
+```
+Saisir la commande suivante :
+```
+my_flatten(L,S).
+```
+Avec L une liste de la forme [a,[b,c]]. Affiche une solution du type S = [a,b,c].
