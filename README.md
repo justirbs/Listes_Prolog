@@ -88,7 +88,7 @@ pack(L,S).
 ```
 Avec L une liste de la forme [a,a,a,b,b,c]. Affiche une solution du type S = [[a,a,a],[b,b],c].
 
-## Encoder une liste avec le nombre de doublons consécutif de chaque élément
+## Encoder une liste avec le nombre de doublons consécutifs de chaque élément
 Charger le fichier :
 ```
 ['pack.prolog'].
