@@ -64,3 +64,37 @@ Saisir la commande suivante :
 my_flatten(L,S).
 ```
 Avec L une liste de la forme [a,[b,c]]. Affiche une solution du type S = [a,b,c].
+
+## Compresser une liste
+
+Charger le fichier :
+```
+['compress.prolog'].
+```
+Saisir la commande suivante :
+```
+compress(L,S).
+```
+Avec L une liste de la forme [a,a,a,b,b,c]. Affiche une solution du type S = [a,b,c].
+
+# Empaqueter les doublons consécutif d'une liste dans une sous liste
+Charger le fichier :
+```
+['pack.prolog'].
+```
+Saisir la commande suivante :
+```
+pack(L,S).
+```
+Avec L une liste de la forme [a,a,a,b,b,c]. Affiche une solution du type S = [[a,a,a],[b,b],c].
+
+# Encoder une liste avec le nombre de doublons consécutif de chaque élément
+Charger le fichier :
+```
+['pack.prolog'].
+```
+Saisir la commande suivante :
+```
+pack(L,S).
+```
+Avec L une liste de la forme [a,a,a,b,b,c]. Affiche une solution du type S = [[3, a], [2, b], [1, c]]
