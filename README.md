@@ -77,7 +77,7 @@ compress(L,S).
 ```
 Avec L une liste de la forme [a,a,a,b,b,c]. Affiche une solution du type S = [a,b,c].
 
-# Empaqueter les doublons consécutif d'une liste dans une sous liste
+## Empaqueter les doublons consécutif d'une liste dans une sous liste
 Charger le fichier :
 ```
 ['pack.prolog'].
@@ -88,7 +88,7 @@ pack(L,S).
 ```
 Avec L une liste de la forme [a,a,a,b,b,c]. Affiche une solution du type S = [[a,a,a],[b,b],c].
 
-# Encoder une liste avec le nombre de doublons consécutif de chaque élément
+## Encoder une liste avec le nombre de doublons consécutif de chaque élément
 Charger le fichier :
 ```
 ['pack.prolog'].
